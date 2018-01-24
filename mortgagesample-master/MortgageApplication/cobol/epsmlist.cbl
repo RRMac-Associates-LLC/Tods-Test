@@ -4,6 +4,7 @@
 	  *    Robin added this comment for testing GIT. 
       * bills test3
       *  01/24/2018 slc v1 master branch change to add comment.
+      *             slc v2 master branch change to add comment2.
       * 
       *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
