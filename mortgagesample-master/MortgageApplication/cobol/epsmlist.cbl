@@ -1,6 +1,6 @@
        ID DIVISION.
        PROGRAM-ID. EPSMLIST.
-	   *bills test
+	   *bills test2
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
       *  SLC 01/23/2018 COMMENT ADDED. 
 	  *    Robin added this comment for testing GIT. 
