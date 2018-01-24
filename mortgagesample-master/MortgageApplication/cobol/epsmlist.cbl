@@ -3,6 +3,8 @@
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
 	  *    Robin added this comment for testing GIT. 
       *
+      *  01/24/2018 slc v1 master branch change to add comment.
+      * 
       *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
       *    CURRENT DATE.
