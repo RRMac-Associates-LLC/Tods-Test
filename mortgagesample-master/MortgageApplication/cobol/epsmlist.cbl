@@ -1,6 +1,10 @@
        ID DIVISION.
        PROGRAM-ID. EPSMLIST.
+	   *bills test2
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
+      * 
+	  * Test comment added by Christine
+      *  SLC 01/23/2018 COMMENT ADDED. 
 	  *    Robin added this comment for testing GIT. 
       * bills test3
       *  01/24/2018 slc v1 master branch change to add comment.
