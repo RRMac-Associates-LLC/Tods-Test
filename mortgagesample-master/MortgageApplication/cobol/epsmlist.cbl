@@ -1,11 +1,17 @@
        ID DIVISION.
        PROGRAM-ID. EPSMLIST.
+	   *bills test2
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
+      * 
+      * Test comment added by Christine 25 January 2018
+      * Test comment added by Christine
       *  SLC 01/23/2018 COMMENT ADDED. 
 	  *    Robin added this comment for testing GIT.
       *  Nina added this line.	  
-      *
-      *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
+      *    Robin added this comment for testing GIT. 
+      *  Nina added another comment 25 January 2018
+            *
+			*    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
       *    CURRENT DATE.
       *
