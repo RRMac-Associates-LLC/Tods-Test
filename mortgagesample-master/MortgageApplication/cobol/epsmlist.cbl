@@ -2,9 +2,10 @@
        PROGRAM-ID. EPSMLIST.
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
       * 
-	  * Test comment added by Christine
+      * Test comment added by Christine 25 January 2018
+      * Test comment added by Christine
       *  SLC 01/23/2018 COMMENT ADDED. 
-	  *    Robin added this comment for testing GIT. 
+      *    Robin added this comment for testing GIT. 
       *
       *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
