@@ -10,7 +10,7 @@
       *  Nina added this line.	  
       *    Robin added this comment for testing GIT. 
       *  Nina added another comment 25 January 2018
-            *
+      * Nina added comment #2 25 January 2018
 			*    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
       *    CURRENT DATE.
