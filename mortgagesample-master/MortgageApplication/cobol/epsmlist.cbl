@@ -7,6 +7,7 @@
       *  02/02/2018 slc TEST Branch update to comment here.
       *  02/05/2018 slc TEST Branch update 1
       *             slc TEST Branch update 2
+      *  02/20/2018 slc TEST Branch update 1 on Tues 02/20
       *
       *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
