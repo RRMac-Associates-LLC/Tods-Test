@@ -96,7 +96,7 @@
        COPY EPSMTCOM.
 
        PROCEDURE DIVISION USING DFHCOMMAREA.
-	  * Comment added by Chris to test on 6-25-18
+	  * changing for test csr 6-12-18
 
       * JPH - DO I need this for files
       * EXEC CICS HANDLE CONDITION H900-NOT-FOUND
