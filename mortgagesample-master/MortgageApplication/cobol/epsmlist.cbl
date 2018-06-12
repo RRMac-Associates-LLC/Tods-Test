@@ -96,6 +96,7 @@
        COPY EPSMTCOM.
 
        PROCEDURE DIVISION USING DFHCOMMAREA.
+
 	  * This is now Bill's line! 6-12-2018 - Comment added by Chris to test on 6-25-18
 
       * JPH - DO I need this for files
