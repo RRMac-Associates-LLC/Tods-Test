@@ -3,19 +3,22 @@
 	   *bills test2
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
       * 
-	  * Test comment added by Christine
-      *  SLC 01/23/2018 COMMENT ADDED. 
-	  *    Robin added this comment for testing GIT. 
-      * bills test3
-      *  01/24/2018 slc v1 master branch change to add comment.
-      *             slc v2 master branch change to add comment2.
-      *             slc v3 master branch change to add comment3.
-      * 
-      *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
+      * RRM Realigned code comments 12 June 2018 
+      * Test comment added by Christine 25 January 2018
+      * CSR comment after 2 by Nina 25 JAN 2018
+      * Test comment added by Christine
+      * SLC 01/23/2018 COMMENT ADDED. 
+	  * Robin added this comment for testing GIT.
+      * Nina added this line.	  
+      * Robin added this comment for testing GIT. 
+      * Nina added another comment 25 January 2018
+      * Nina added comment #2 25 January 2018
+	  *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO
       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM
       *    CURRENT DATE.
       *
       *    (C) 2008 IBM - JIM HILDNER RESERVED.
+      * 	  
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
        SOURCE-COMPUTER. IBM-FLEX-ES.
@@ -93,6 +96,8 @@
        COPY EPSMTCOM.
 
        PROCEDURE DIVISION USING DFHCOMMAREA.
+
+	  * THIS LINE BELONGS TO CHRISTINE 6-13-18 ...bill was here
 
       * JPH - DO I need this for files
       * EXEC CICS HANDLE CONDITION H900-NOT-FOUND
