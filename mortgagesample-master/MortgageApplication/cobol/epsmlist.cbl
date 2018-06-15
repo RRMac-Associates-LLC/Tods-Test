@@ -97,7 +97,7 @@
 
        PROCEDURE DIVISION USING DFHCOMMAREA.
 
-	  * THIS LINE BELONGS TO CHRISTINE 6-13-18 ...bill was here
+	  * THIS LINE BELONGS TO CHRISTINE 6-13-18 ...bill was here...Me too
 
       * JPH - DO I need this for files
       * EXEC CICS HANDLE CONDITION H900-NOT-FOUND
