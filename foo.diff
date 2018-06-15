@@ -1,0 +1,57 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex dd7fb66..a0935ce 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,3 +1 @@[m
+[31m-# Tods-Test[m
+[31m-[m
+[31m-#bills notes[m
+\ No newline at end of file[m
+[32m+[m[32m# Tods-Test[m
+\ No newline at end of file[m
+[1mdiff --git a/mortgagesample-master/MortgageApplication/cobol/epsmlist.cbl b/mortgagesample-master/MortgageApplication/cobol/epsmlist.cbl[m
+[1mindex b3f480b..d46aaec 100644[m
+[1m--- a/mortgagesample-master/MortgageApplication/cobol/epsmlist.cbl[m
+[1m+++ b/mortgagesample-master/MortgageApplication/cobol/epsmlist.cbl[m
+[36m@@ -1,11 +1,12 @@[m
+        ID DIVISION.[m
+        PROGRAM-ID. EPSMLIST.[m
+[32m+[m	[32m   *bills test2[m[41m[m
+       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008[m
+[31m-	  *    Robin added this comment for testing GIT. [m
+[31m-      * bills test3[m
+[31m-      *  01/24/2018 slc v1 master branch change to add comment.[m
+[31m-      *             slc v2 master branch change to add comment2.[m
+       * [m
+[32m+[m	[32m  * Test comment added by Christine[m[41m[m
+[32m+[m[32m      *  SLC 01/23/2018 COMMENT ADDED.[m[41m [m
+[32m+[m	[32m  *    Robin added this comment for testing GIT.[m[41m [m
+[32m+[m[32m      *[m[41m[m
+       *    THIS PROGRAM WILL RECEIVE A DATE AND COVERT THE DATE TO[m
+       *    AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS FROM[m
+       *    CURRENT DATE.[m
+[1mdiff --git a/mortgagesample-master/MortgageApplication/cobol/epsmpmt.cbl b/mortgagesample-master/MortgageApplication/cobol/epsmpmt.cbl[m
+[1mindex 8f68863..e27240e 100644[m
+[1m--- a/mortgagesample-master/MortgageApplication/cobol/epsmpmt.cbl[m
+[1m+++ b/mortgagesample-master/MortgageApplication/cobol/epsmpmt.cbl[m
+[36m@@ -2,6 +2,7 @@[m
+        ID DIVISION.[m
+        PROGRAM-ID. EPSMPMT.[m
+       *    THIS IS A CALLED PROGRAM EXAMPLE FOR DEMONSTRATION[m
+[32m+[m[32m      *    RRM added this line as a test comment.[m[41m [m
+       *[m
+       *    THIS PROGRAM WILL BE CALLED BY ANOTHER, RECEIVE[m
+       *    THE FOLLOWING INFOMATION AND RETURN A MONTLY PAYMENT AMOUNT[m
+[1mdiff --git a/mortgagesample-master/MortgageApplication/cobol/epsnbrvl.cbl b/mortgagesample-master/MortgageApplication/cobol/epsnbrvl.cbl[m
+[1mindex 8dc7933..e8f50f8 100644[m
+[1m--- a/mortgagesample-master/MortgageApplication/cobol/epsnbrvl.cbl[m
+[1m+++ b/mortgagesample-master/MortgageApplication/cobol/epsnbrvl.cbl[m
+[36m@@ -1,7 +1,7 @@[m
+        ID DIVISION.[m
+        PROGRAM-ID. EPSNBRVL[m
+       *    THIS IS A CALLED PROGRAM EXAMPLE FOR DEMONSTRATION[m
+[31m-      *[m
+[32m+[m[32m      *    ************ Comment RRM Jan 24 2018[m[41m[m
+       *    THIS PROGRAM WILL BE CALLED BY ANOTHER, RECEIVE[m
+       *    THE FOLLOWING INFOMATION AND RETURN A MONTLY PAYMENT AMOUNT[m
+       *    INPUT:[m
