@@ -5,15 +5,15 @@
 # to native line endings on checkout.
 *.c text
 *.h text
-*.groovy
-*.properties
-*.sh
-*.txt
-*.cbl
-*.cpy
-*.lnk
-*.bms
-*.mfs
+*.groovy text
+*.properties text
+*.sh text
+*.txt text
+*.cbl text
+*.cpy text
+*.lnk text
+*.bms text
+*.mfs text
 
 # Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
