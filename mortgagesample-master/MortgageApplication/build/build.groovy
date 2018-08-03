@@ -52,6 +52,12 @@ File sourceFile = new File("$scriptDir/Tools.groovy")
 Class groovyClass = new GroovyClassLoader(getClass().getClassLoader()).parseClass(sourceFile)
 GroovyObject tools = (GroovyObject) groovyClass.newInstance()
 
+//convert files
+println("** Convert start at $properties.startTime")
+def proc = '~/convert.sh'.execute()
+
+
+
 // start build
 def startTime = new Date()
 properties.startTime = startTime.format("yyyyMMdd.hhmmss.mmm")
