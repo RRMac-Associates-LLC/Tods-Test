@@ -222,3 +222,4 @@ ID DIVISION.
                                  OF DFHCOMMAREA
                                  TO WS-FORMAT-NUMBER.
            MOVE WS-FORMAT-NUMBER TO OUTMAP-LOAN(DISP-COUNT).
+		   
