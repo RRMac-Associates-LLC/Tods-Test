@@ -221,5 +221,4 @@ ID DIVISION.
            MOVE EPSPCOM-RETURN-MONTH-PAYMENT
                                  OF DFHCOMMAREA
                                  TO WS-FORMAT-NUMBER.
-           MOVE WS-FORMAT-NUMBER TO OUTMAP-LOAN(DISP-COUNT).
-		   
+           MOVE WS-FORMAT-NUMBER TO OUTMAP-LOAN(DISP-COUNT).		   
