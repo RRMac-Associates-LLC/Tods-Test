@@ -12,10 +12,10 @@ ID DIVISION.
        SOURCE-COMPUTER. IBM-FLEX-ES.
        OBJECT-COMPUTER. IBM-FLEX-ES.
       *
-       DATA DIVISION.
+       DATA DIVISION2222.
        WORKING-STORAGE SECTION.
       *
-       01  W-FLAGS1.
+       01  W-FLAGS.
            10  W-SEND-FLAG                    PIC X.
                88  SEND-ERASE                   VALUE '1'.
                88  SEND-DATAONLY                VALUE '2'.
