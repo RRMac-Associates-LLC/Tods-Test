@@ -182,9 +182,9 @@ println("** IN initializeBuildArtifacts 4")
         def repo = getDefaultRepositoryClient()
 println("** IN initializeBuildArtifacts 5")		
         properties.buildGroup = "${properties.collection}Build" as String
-println("** IN initializeBuildArtifacts 6")
+println("** IN initializeBuildArtifacts 6 - "+properties.buildGroup)
         properties.buildLabel = "build.${properties.startTime}" as String
-println("** IN initializeBuildArtifacts 7")
+println("** IN initializeBuildArtifacts 7 - "+properties.buildLabel)
         def buildResult = repo.createBuildResult(properties.buildGroup, properties.buildLabel) 
 println("** IN initializeBuildArtifacts 8")
         buildResult.setState(buildResult.PROCESSING)
