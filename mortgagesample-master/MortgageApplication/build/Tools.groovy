@@ -170,15 +170,25 @@ def getDefaultRepositoryClient() {
 	return repositoryClient
 }
 
+
 def initializeBuildArtifacts() {
+println("** IN initializeBuildArtifacts 1")
     BuildReportFactory.createDefaultReport()
+println("** IN initializeBuildArtifacts 2")
     def properties = BuildProperties.getInstance()
+println("** IN initializeBuildArtifacts 3")
     if (!properties.userBuild) {
+println("** IN initializeBuildArtifacts 4")
         def repo = getDefaultRepositoryClient()
+println("** IN initializeBuildArtifacts 5")		
         properties.buildGroup = "${properties.collection}Build" as String
+println("** IN initializeBuildArtifacts 6")
         properties.buildLabel = "build.${properties.startTime}" as String
+println("** IN initializeBuildArtifacts 7")
         def buildResult = repo.createBuildResult(properties.buildGroup, properties.buildLabel) 
+println("** IN initializeBuildArtifacts 8")
         buildResult.setState(buildResult.PROCESSING)
+println("** IN initializeBuildArtifacts 9")
         buildResult.save()
         println("** Build result created at ${buildResult.getUrl()}")
     }

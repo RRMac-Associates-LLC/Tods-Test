@@ -64,7 +64,7 @@ println(properties.list())
 
 // initialize build artifacts
 tools.initializeBuildArtifacts()
-
+println("** DONE WITH initializeBuildArtifacts")
 // create workdir (if necessary)
 new File(properties.workDir).mkdirs()
 println("** Build output will be in $properties.workDir")
