@@ -1,4 +1,4 @@
-ID DIVISION.
+       ID DIVISION.
        PROGRAM-ID. EPSMLIST.
       *    THIS DEMONSTRATES CICS/DEBUG           - EPSDEMOS 2008
       *
@@ -221,4 +221,4 @@ ID DIVISION.
            MOVE EPSPCOM-RETURN-MONTH-PAYMENT
                                  OF DFHCOMMAREA
                                  TO WS-FORMAT-NUMBER.
-           MOVE WS-FORMAT-NUMBER TO OUTMAP-LOAN(DISP-COUNT).		   
+           MOVE WS-FORMAT-NUMBER TO OUTMAP-LOAN(DISP-COUNT).   
